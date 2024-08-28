@@ -14,7 +14,7 @@ public class RagDollCtrl : MonoBehaviour
         RagDoll_rb = transform.GetChild(2).GetComponentsInChildren<Rigidbody>();
         RagDoll_cols = transform.GetChild(2).GetComponentsInChildren<Collider>();
         SetRagDoll(true);
-        StartCoroutine(WakeUpRagDoll());
+        //StartCoroutine(WakeUpRagDoll());
     }
 
     /// <summary> RagDoll의 IsKinematic을 Off </summary>
